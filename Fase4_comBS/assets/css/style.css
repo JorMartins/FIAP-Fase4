@@ -1,0 +1,93 @@
+
+
+.footer {
+    width: 100%;
+    height: 15vh;
+    text-align: right;
+}
+
+.footer img {
+    max-width: 50%;
+}
+
+
+
+
+
+.header_paginas {
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer_paginas {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_paginas img {
+    max-width: 100%;
+}
+
+
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+}
+
+
+.grafico {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60vh;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.bar {
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Cores das barras */
+.bar-receitas {
+    text-align: center;
+    margin: 0 20px; 
+    width: 200px;
+    background-color: #4CAF50;
+    height: 100%; /* Altura da primeira barra */
+}
+
+.bar-despesas {
+    text-align: center;
+    margin: 0 20px; 
+    width: 200px;
+    background-color: #FF5733;
+    height: 4,25%; /* Altura da segunda barra */
+}
+
+.footer_lastpage {
+    width: 100%;
+    height: 15vh;
+    text-align: left;
+}
+
+.footer_lastpage img {
+    max-width: 50%;
+}
